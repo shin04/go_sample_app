@@ -8,10 +8,6 @@
     <body>
         <h2>aaa</h2>
         
-        <p>{{.user.ID}}</p>
-        <p>{{.user.Name}}</p>
-        <p>{{.user.Age}}</p>
-        
         <form method="post" action="/update/{{.todo.ID}}">
             <p>内容<input type="text" name="text" size="30" value="{{.todo.Text}}" ></p>
             <p>状態

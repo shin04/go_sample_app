@@ -116,7 +116,7 @@ func main() {
 			panic(err)
 		}
 		todo := db_get_one(id)
-		ctx.HTML(200, "index.html", gin.H{
+		ctx.HTML(200, "detail.html", gin.H{
 			"todo": todo,
 		})
 	})
